@@ -1,0 +1,28 @@
+# 🖥️ Troubleshooting Slow PC Performance
+
+## 🔍 Problem:
+User reports their Windows 10 PC takes 5-7 minutes to boot and runs slowly.
+
+## 🛠️ Environment:
+- Windows 10 Pro
+- 4GB RAM
+- 500GB HDD
+- Home network
+
+## 🔎 Diagnosis Steps:
+1. Checked Task Manager (high disk usage on startup).
+2. Analyzed startup programs via `msconfig`.
+3. Ran full malware scan (Windows Defender).
+4. Checked disk health using `chkdsk`.
+5. Verified Windows updates status.
+
+## 🛠️ Solution:
+- Disabled unnecessary startup programs.
+- Cleared temporary files with Disk Cleanup.
+- Uninstalled unused applications.
+- Scheduled disk defragmentation.
+- Advised RAM upgrade from 4GB to 8GB.
+
+## ✅ Outcome:
+Startup reduced from 7 minutes to 45 seconds. Overall performance improved.
+
