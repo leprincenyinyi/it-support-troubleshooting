@@ -1,0 +1,24 @@
+# 📶 Troubleshooting Wi-Fi Connection Issues
+
+## Problem:
+User unable to connect to the Wi-Fi network. Error: "Cannot connect to this network."
+
+## Environment:
+- Windows 10
+- Company Wi-Fi (secured network)
+
+## Diagnosis Steps:
+1. Verified Wi-Fi adapter was enabled.
+2. Checked available networks.
+3. Verified correct password was entered.
+4. Ran `ipconfig /release` and `ipconfig /renew`.
+5. Flushed DNS using `ipconfig /flushdns`.
+6. Reinstalled Wi-Fi adapter drivers.
+
+## Solution:
+- Uninstalled and reinstalled network drivers.
+- Manually connected by re-adding network SSID and credentials.
+- Reset TCP/IP stack with `netsh int ip reset`.
+
+## Outcome:
+Connection restored, user now able to access Wi-Fi and internet resources without issue.
