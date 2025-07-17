@@ -1,0 +1,24 @@
+# 🖨️ Troubleshooting Printer Not Detected
+
+## Problem:
+User reports printer is not appearing in devices, cannot print.
+
+## Environment:
+- Windows 10
+- Network Printer (Brother HL-L2350DW)
+
+## Diagnosis Steps:
+1. Checked if printer powered on and connected to network.
+2. Verified IP address via printer control panel.
+3. Pinged the printer IP to confirm connectivity.
+4. Checked Windows Devices and Printers.
+5. Reviewed printer drivers installed.
+
+## Solution:
+- Reinstalled printer drivers from manufacturer's website.
+- Added printer manually via IP address.
+- Set as default printer.
+- Restarted Print Spooler service.
+
+## Outcome:
+Printer successfully added; user can now print without issues.
